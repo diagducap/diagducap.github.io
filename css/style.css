@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF5E14;
+    --primary: #144fff;
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
@@ -53,11 +53,27 @@ h6,
     opacity: 1;
 }
 
+/*** Text ***/
+.text-primary {
+    color: #144fff !important;
+    
+}
 
 /*** Button ***/
 .btn {
     transition: .5s;
     font-weight: 500;
+}
+
+
+.bg-primary {
+    background-color: #144fff !important;
+    border-color: #144fff;
+}
+  
+.btn-primary {
+  background-color: #144fff;
+  border-color: #144fff;
 }
 
 .btn-primary,
@@ -72,7 +88,7 @@ h6,
 
 .btn-sm-square {
     width: 32px;
-    height: 32px;
+    height: 32px;te
 }
 
 .btn-lg-square {
